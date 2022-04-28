@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* NAV BAR */
+
+nav {
+    background-color: #e0afa0;
+    color: #463f3a;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #463f3a;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+}
+
+li {
+    padding: 15px 26px 10px;
+}
+
+/* HOME SECTION */
+
+#myName, #job, h2 {
+    color: #e0afa0;
+}
+
+h1 {
+    font-size: 80px;
+    letter-spacing: 0.05rem;
+    color: #e0afa0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home {
+    background-color: black;
+    height: 800px;
+    font-family: 'Pacifico', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* ABOUT ME SECTION */
+
+.about {
+    background-color: black;
+    color: white;
+    height: 800px;
+  
+}
+
+#profile-pic{
+    width: 350px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.container-content {
+    display: flex;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+h4, p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    letter-spacing: 0.05rem;
+    padding-top: 30px;
+ 
+    margin-left: 50px;
+
+}
+
+#kodego, h4 {
+    color: #e0afa0;
+
+}
+
+.p-1 {
+    line-height: 40px;
+    text-align: justify;
+    width: 1150px;
+}
+
+/* SKILLS SECTION */
+
+.skills {
+    background-color: black;
+    color: white;
+    height: 900px;
+}
+
+i {
+    font-size: 70px;
+}
+
+/* GRID LAYOUT FOR SKILLS */
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+.item7 {
+    grid-area: item7;
+}
+
+.item8 {
+    grid-area: item8;
+}
+
+.item9 {
+    grid-area: item9;
+}
+
+.container-icons {
+    padding-top: 30px;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+    'item1 item2 item3'
+    'item4 item5 item6'
+    'item7 item8 item9';
+    
+}
+
+.skillName {
+    margin: auto;
+}
+
+.box-icon {
+    padding: 20px 10px 40px;
+}
+
+/* PROJECTS SECTION */
+
+/* PROJECTS ONE : ALL ABOUT BEAGLES */
+
+.projects {
+    background-color: black;
+    color: white;
+    height: 900px;
+}
+
+.mini-icon{
+    font-size: 20px;
+}
+
+.p-2{
+    width: 650px;
+    text-align: justify;
+}
+
+.container-icons-mini{
+    padding-left: 60px;
+    padding-top: 15px;
+}
+
+.container-work{
+    display: flex;
+    flex-direction: row;
+}
+
+.work-pic-landscape{
+    width: 700px;
+    padding-left: 100px;
+}
+
+.btn{
+    background-color: #e0afa0;
+    padding: 15px;
+}
+
+.container-work-btns{
+    padding-top: 50px;
+    padding-left: 60px;
+}
