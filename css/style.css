@@ -185,7 +185,7 @@ i {
 
 /* PROJECTS SECTION */
 
-/* PROJECTS ONE : ALL ABOUT BEAGLES */
+/* PROJECT ONE : ALL ABOUT BEAGLES */
 
 .projects {
     background-color: black;
@@ -207,7 +207,7 @@ i {
     padding-top: 15px;
 }
 
-.container-work{
+.container-work-1{
     display: flex;
     flex-direction: row;
 }
@@ -225,4 +225,24 @@ i {
 .container-work-btns{
     padding-top: 50px;
     padding-left: 60px;
+}
+
+.font-1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* PROJECT TWO : BRODEV WEB SOLUTIONS */
+
+.container-work-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    height: 100vh;
+    background-color: black;
+}
+
+.work-pic-landscape-2{
+    width: 350px;
+    padding-left: 100px;
 }
