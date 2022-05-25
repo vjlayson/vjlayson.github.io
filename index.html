@@ -12,33 +12,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <!-- DEVICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <!-- STYLESHEET -->
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- CUSTOM CSS STYLESHEET -->
     <link rel="stylesheet" href="css/style.css">
     <title>Vanessa Joy's Portfolio</title>
 </head>
 <body>
-    <!-- NAV BAR -->
-    <nav>
-        <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#skills">skills</a></li>
-            <li><a href="#projects">projects</a></li>
-        </ul>
-    </nav>
+    <!-- HEADER -->
+    <section class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">projects</a></li>
+            </ul>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
 
     <!-- HOME SECTION -->
-    <section class="home" id="home">
+    <section id="home">
         <h1>
             Hi, I'm
-            <span id="myName">Vanessa Joy!</span><br>
+            <span id="myName">Vanessa Joy.</span><br>
             I'm a
             <span id="job">Front-End Developer.</span>
         </h1>
     </section>
 
     <!-- ABOUT ME SECTION -->
-    <section class="about" id="about">
+    <section id="about">
         <h2>ABOUT</h2>
         <h3>Who Is Vanessa Joy?</h3>
         <div class="container-content">
@@ -51,7 +56,7 @@
                     I'm passionate about combining creativity and critical thinking to produce a valuable output. User experience, beautiful pixels and writing clean accessible, human code matters to me.
                 </p>
                 <p class="p-1">
-                    I am currently learning Front-End Web Development at <span id="kodego">KodeGo</span>  bootcamp. So far, we learned about HTML, CSS, Bootstrap, SASS, JavaScript, React, and MySQL.
+                    I am currently learning Front-End Web Development at <a href="https://kodego.ph/"><span id="kodego">KodeGo</span></a>  bootcamp. So far, we learned about HTML5, CSS3, Bootstrap 5, SASS, JavaScript ES6, React 18, PHP, Laravel, MySQL, Git, and Sourcetree.
                 </p>
                 <p class="p-1">
                     I love coffee, listening to music, playing guitar and going to the beach.
@@ -61,7 +66,7 @@
     </section>
 
     <!-- SKILLS SECTION -->
-    <section class="skills" id="skills">
+    <section id="skills">
         <h2>SKILLS & TOOLS</h2>
         <h3>My Toolbox & Things I Can Do</h3>
         <p>
@@ -78,7 +83,7 @@
             </div>
             <div class="box-icon item3">
                 <i class="devicon-javascript-plain"></i>
-                <p class="skillName">JavaScript</p>
+                <p class="skillName">JavaScript ES6</p>
             </div>
             <div class="box-icon item4">
                 <i class="devicon-sass-original"></i>
@@ -86,11 +91,11 @@
             </div>
             <div class="box-icon item5">
                 <i class="devicon-bootstrap-plain"></i>
-                <p class="skillName">Bootstrap</p>
+                <p class="skillName">Bootstrap 5</p>
             </div>
             <div class="box-icon item6">
                 <i class="devicon-react-original"></i>
-                <p class="skillName">React</p>
+                <p class="skillName">React 18</p>
             </div>
             <div class="box-icon item7">
                 <i class="devicon-git-plain"></i>
@@ -121,11 +126,11 @@
                         Want to know more about beagles? Check this website that provides general information about the dog breed. You will also find here some links to rescue groups.
                     </p>
                     <div class="container-icons-mini">
-                        <i class="devicon-html5-plain mini-icon"></i>
-                        <i class="devicon-css3-plain mini-icon"></i>
+                        <i class="devicon-html5-plain mini-icon" title="HTML5"></i>
+                        <i class="devicon-css3-plain mini-icon" title="CSS3"></i>
                     </div>
                     <div class="container-work-btns">
-                        <a href="https://all-about-beagles.netlify.app/" class="btn font-1" target="_blank">View It Here</a>
+                        <a href="https://all-about-beagles.vercel.app/" class="btn font-1" target="_blank">View It Here</a>
                         <a href="https://github.com/vjlayson/all-about-beagles" class="btn font-1" target="_blank">View Github Repo</a>
                     </div>
                 </div>
@@ -139,13 +144,13 @@
                 <div class="container-text">
                     <h4>BroDev Web Solutions</h4>
                     <p class="p-2">
-                        A single-page website with services for UX/UI Design, Web Development, Graphic Design, and Social Media Management. A group programming project with <a href="https://bryocodeo-eportfolio.netlify.app/" target="_blank">Bryan Orense</a>, <a href="https://denmarkully.github.io/denmark.github.io/" target="_blank">Denmark Barbon</a>, and <a>Ronniel Javier</a>.
+                        A single-page website with services for UX/UI Design, Web Development, Graphic Design, and Social Media Management. A group programming project with <a href="https://bryocodeo-eportfolio.netlify.app/" target="_blank">Bryan Orense</a>, <a href="https://denmarkully.github.io/denmark.github.io/" target="_blank">Denmark Barbon</a> and <a>Ronniel Javier</a>.
                     </p>
                     <div class="container-icons-mini">
-                        <i class="devicon-html5-plain mini-icon"></i>
-                        <i class="devicon-css3-plain mini-icon"></i>
-                        <i class="devicon-javascript-plain mini-icon"></i>
-                        <i class="devicon-figma-plain mini-icon"></i>
+                        <i class="devicon-html5-plain mini-icon" title="HTML5"></i>
+                        <i class="devicon-css3-plain mini-icon" title="CSS3"></i>
+                        <i class="devicon-javascript-plain mini-icon" title="JavaScript"></i>
+                        <i class="devicon-figma-plain mini-icon" title="Figma"></i>
                         
                     </div>
                     <div class="container-work-btns">
@@ -159,10 +164,15 @@
             </div>
         </div>  
     </section>
-    
-    
-    
 
+    <!-- FOOTER -->
+    <footer>
+        <span>© 2022 | Designed & coded by Vanessa Joy Layson</span>
+    </footer>
+    
+    
+    
+    <script src="./script.js"></script>
     
 </body>
 </html>

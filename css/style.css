@@ -3,7 +3,11 @@
     box-sizing: border-box;
 }
 
-/* NAV BAR */
+nav, section, footer{
+    display: block;
+}
+
+/* HEADER */
 
 nav {
     background-color: #e0afa0;
@@ -36,10 +40,25 @@ li {
     padding: 15px 26px 10px;
 }
 
+#menu-btn{
+    font-size: 2.5rem;
+    cursor: pointer;
+    color:var(--black);
+    display: none;
+ }
+
 /* HOME SECTION */
 
-#myName, #job, h2 {
+#job, h2 {
     color: #e0afa0;
+}
+
+#myName{
+    animation: color-change 7s infinite;
+}
+
+@keyframes color-change {
+    50% { color: black; }
 }
 
 h1 {
@@ -49,9 +68,9 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.home {
+#home {
     background-color: black;
-    height: 800px;
+    height: 100vh;
     font-family: 'Pacifico', cursive;
     display: flex;
     justify-content: center;
@@ -61,11 +80,10 @@ h1 {
 
 /* ABOUT ME SECTION */
 
-.about {
+#about {
     background-color: black;
     color: white;
-    height: 800px;
-  
+    height: 100vh;
 }
 
 #profile-pic{
@@ -116,10 +134,10 @@ h4, p {
 
 /* SKILLS SECTION */
 
-.skills {
+#skills {
     background-color: black;
     color: white;
-    height: 900px;
+    padding-bottom: 200px;
 }
 
 i {
@@ -190,7 +208,6 @@ i {
 .projects {
     background-color: black;
     color: white;
-    height: 900px;
 }
 
 .mini-icon{
@@ -210,6 +227,7 @@ i {
 .container-work-1{
     display: flex;
     flex-direction: row;
+    padding-bottom: 100px;
 }
 
 .work-pic-landscape{
@@ -238,11 +256,74 @@ i {
     display: flex;
     flex-direction: row;
     margin-top: 100px;
-    height: 100vh;
     background-color: black;
+    padding-bottom: 150px;
 }
+
+
 
 .work-pic-landscape-2{
     width: 350px;
     padding-left: 100px;
 }
+
+/* FOOTER */
+
+footer{
+    font-size: 14px;
+    background-color: #e0afa0;
+    color: #463f3a;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    
+}
+
+/* FOR SMALL DEVICES, 600px or LESS */
+
+/* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+} */
+
+@media (max-width:768px){
+
+    /* .heading h1{
+       font-size: 4rem;
+    } */
+ 
+    #menu-btn{
+       display: flex;
+       flex-direction: row-reverse;
+       transition: .2s linear;
+       padding: 20px;
+       background-color: #e0afa0;
+
+    }
+ 
+    #menu-btn.fa-times{
+       transform: rotate(180deg);
+    }
+ 
+    .header .navbar{
+       position: absolute;
+       top:99%; left:0; right:0;
+       background-color: var(--white);
+       border-top: var(--border);
+       padding:2rem;
+       transition: .2s linear;
+       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+ 
+    .header .navbar.active{
+       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+ 
+    .header .navbar a{
+       display: block;
+       margin:2rem;
+       text-align: center;
+    }
+ 
+ }
