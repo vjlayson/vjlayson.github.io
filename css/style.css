@@ -325,5 +325,17 @@ footer{
        margin:2rem;
        text-align: center;
     }
- 
- }
+
+    /* HOME SECTION */
+    #home h1{
+        color: orangered;
+        font-size: 28px;
+    }
+
+    #job{
+        color: orangered;
+        font-size: 28px;
+    }
+}
+
+
