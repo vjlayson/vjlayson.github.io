@@ -182,6 +182,18 @@ i {
     grid-area: item9;
 }
 
+.item10 {
+    grid-area: item10;
+}
+
+.item11 {
+    grid-area: item11;
+}
+
+.item12 {
+    grid-area: item12;
+}
+
 .container-icons {
     padding-top: 30px;
     text-align: center;
@@ -189,7 +201,8 @@ i {
     grid-template-areas: 
     'item1 item2 item3'
     'item4 item5 item6'
-    'item7 item8 item9';
+    'item7 item8 item9'
+    'item10 item11 item12';
     
 }
 
@@ -265,6 +278,16 @@ i {
 .work-pic-landscape-2{
     width: 350px;
     padding-left: 100px;
+}
+
+/* PROJECT THREE : BOOKSHOP */
+
+.container-work-3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: black;
+    padding-bottom: 150px;
 }
 
 /* FOOTER */
