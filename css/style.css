@@ -273,9 +273,7 @@ i {
     padding-bottom: 150px;
 }
 
-
-
-.work-pic-landscape-2{
+.work-pic-portrait{
     width: 350px;
     padding-left: 100px;
 }
@@ -283,6 +281,16 @@ i {
 /* PROJECT THREE : BOOKSHOP */
 
 .container-work-3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: black;
+    padding-bottom: 150px;
+}
+
+/* PROJECT FOUR : RECIPE APP */
+
+.container-work-4{
     display: flex;
     flex-direction: row;
     margin-top: 20px;
@@ -301,64 +309,3 @@ footer{
     font-weight: bold;
     
 }
-
-/* FOR SMALL DEVICES, 600px or LESS */
-
-/* @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-} */
-
-@media (max-width:768px){
-
-    /* .heading h1{
-       font-size: 4rem;
-    } */
- 
-    #menu-btn{
-       display: flex;
-       flex-direction: row-reverse;
-       transition: .2s linear;
-       padding: 20px;
-       background-color: #e0afa0;
-
-    }
- 
-    #menu-btn.fa-times{
-       transform: rotate(180deg);
-    }
- 
-    .header .navbar{
-       position: absolute;
-       top:99%; left:0; right:0;
-       background-color: var(--white);
-       border-top: var(--border);
-       padding:2rem;
-       transition: .2s linear;
-       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
- 
-    .header .navbar.active{
-       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    }
- 
-    .header .navbar a{
-       display: block;
-       margin:2rem;
-       text-align: center;
-    }
-
-    /* HOME SECTION */
-    #home h1{
-        color: orangered;
-        font-size: 28px;
-    }
-
-    #job{
-        color: orangered;
-        font-size: 28px;
-    }
-}
-
-
